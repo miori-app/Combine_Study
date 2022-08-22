@@ -16,7 +16,8 @@ subject.send("Hello")
 subject.send("Hello again!")
 subject.send("Hello final")
 
-subject.send(completion: .finished)
+//subject.send(completion: .finished)
+subscription.cancel()
 subject.send("gogo ??")
 
 //: [Next](@next)
