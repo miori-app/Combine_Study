@@ -21,4 +21,8 @@ print("text: \(label.text)")
 //퍼블리셔
 viewModel.$name.assign(to: \.text, on: label)
 print("text: \(label.text)")
+
+viewModel.name = "miyeon"
+viewModel.age = 40
+print("text: \(label.text)")
 //: [Next](@next)
